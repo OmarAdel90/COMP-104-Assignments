@@ -29,9 +29,5 @@ int main(){
 	else if ((p2 == r && p1 == s) || (p2 == s && p1 == p)){
 		cout << "Player 2 wins" << endl;
 	}
-	
-		
-
-
 
 }
