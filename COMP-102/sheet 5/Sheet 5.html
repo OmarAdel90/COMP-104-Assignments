@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body style="background-color:#2554C7;">
         <table width="100%">
-            <thead>
-                <td style="width: 15%;">
-                    <img src="resources/ain-shams-logo.png" width="100px" height="100px">
-                </td>
-                <th style="color:#8EEBEC ; font-size: x-large; text-align: center;">
-                    Faculty Of Science-Ain Shams University
-                </th>
-                <td style="width: 15%;">
-                    <img src="resources/science-faculty-logo.png" width="100px" height="100px">
-                </td>
-            </thead>
+                <thead>
+                    <tr>
+                        <div class="header">
+                            <td>
+                                <img src="resources/ain-shams-logo.png" width="60px" height="60px">
+                            </td>
+                            <th style="color:#8EEBEC ; font-size: large;">
+                                Faculty Of Science-Ain Shams University
+                            </th>
+                            <td>
+                                <img src="resources/science-faculty-logo.png" width="60px" height="60px">
+                            </td>
+                        </div>  
+                    </tr>
+                </thead>
             <tbody>
                 <tr>
                     <td colspan="6">
@@ -24,7 +31,7 @@
                         <i>Welcome to Faculty of Science Ain-Shams University</i>
                     </td>
                 </tr>
-                <tr>
+                <tr style="display: flex;">
                     <td rowspan="7" style="background-color: #4169E1; font-size: medium;">
                         <h2><a href="www.google.com" style="color: #8EEBEC;">Computer Science</a></h2>
                         <br>
@@ -34,18 +41,60 @@
                         <br>
                         <h2><a href="www.google.com" style="color: #8EEBEC;">Mathmatics</a></h2>
                     </td>
-                    <td rowspan="7" VALIGN=Top style="background-color: #8EEBEC;white-space: nowrap;">
-                        <h1 style="color: #4169E1;">Computer Science</h1>
-                        Course Code: <br>
-                        <ol style="list-style: 1;">
-                            <li>COMP-102</li>
-                            <li>COMP-104</li>
-                            <li>COMP-106</li>
-                        </ol>
-                        <h1 style="color: #4169E1;">Statistics</h1>
-                    </td>
+                    <div class="content">
+                        <td colspan="7" style="background-color: #8EEBEC;vertical-align: top;">
+                            <h1 style="color: #4169E1;">Computer Science</h1>
+                            Course Code: <br>
+                            <ol style="list-style: 1;">
+                                <li>COMP-102</li>
+                                <li>COMP-104</li>
+                                <li>COMP-106</li>
+                            </ol>
+                        </td>
+                        <td style="background-color: #8EEBEC;padding-left: 50px;">
+                            <h1 style="color: #4169E1;">Statistics</h1>
+                            Course Code:
+                            <br>
+                            <ol type="I">
+                                <li>COMP-104</li>
+                                <li>COMP-102</li>
+                                <ul>
+                                    <li>90 Final Exam</li>
+                                    <li>15 Mid-Term</li>
+                                    <li>7 Attendence</li>
+                                    <li>10 Activities</li>
+                                    <li>20 Final Lab Exam</li>
+                                    <li>8 Oral</li>
+                                </ul>
+                            </ol>
+                        </td>
+                        <td style="background-color: #8EEBEC;padding-left: 50px;">
+                            <h1 style="color: #4169E1;">Physics & Computer Science</h1>
+                            Course Code:
+                            <br>
+                            <ol style="list-style: 1;">
+                                <li>COMP-102</li>
+                                <li>COMP-104</li>
+                            </ol>
+                        </td>
+                        <td style="background-color: #8EEBEC;padding-left: 50px;">
+                            <h1 style="color: #4169E1;">Mathematics</h1>
+                            Course Code:
+                            <br>
+                            <ol style="list-style: 1;">
+                                <li>COMP-106</li>
+                            </ol>
+                        </td>
+                    </div>
                 </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td style="color: #8EEBEC; text-align: center;" colspan="7">
+                        Copyright &copy; 2022 Level 1 Spring Semester Faculty of Science-Ain Shams University
+                    </td>
+                </tr>   
+            </tfoot>
         </table>
     </body>
 </html>
