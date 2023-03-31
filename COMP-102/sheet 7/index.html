@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>
+            Simple HTML Contact Form
+        </h1>
+        <form class="form">
+            <div class="name">
+                <label>Name</label>
+                <br>
+                <input type="text">
+            </div>
+            <br>
+            <div class="pass">
+                <label>Password</label>
+                <br>
+                <input type="password">
+            </div>
+            <br>
+            <div>
+                <label>Phone</label>
+                <br>
+                <input type="number" placeholder="Enter Phone Number">
+            </div>
+            <br>
+            <div class="gender">
+                <label>Gender</label>
+                <br>
+                <div id="choices" style="display: inline;">
+                    <input type="radio" name="gender">
+                    <label>Male</label>
+                    <input type="radio" name="gender">
+                    <label>Female</label>
+                </div>
+            </div>
+            <br>
+            <div class="pref">
+                <label>Prefrences:</label>
+                <br>
+                <input type="checkbox">Morning
+                <input type="checkbox">Night
+            </div>
+            <br>
+            <div class="message">
+                <label>Message</label>
+                <br>
+                <textarea style="width: 400px; height: 100px;"></textarea>
+            </div>
+            <br>
+            <div class="ser">
+                <label>Service</label>
+                <br>
+                <select>
+                    <option>Service 1</option>
+                    <option>Service 2</option>
+                </select>
+            </div>
+            <br>
+            <div class="birth">
+                <label>Date Of Birth</label>
+                <br>
+                <input type="date">
+            </div>
+            <br>
+            <div class="web">
+                <label>Website</label>
+                <br>
+                <input type="text">
+            </div>
+            <br>
+            <div class="file">
+                <label>Upload A File</label>
+                <br>
+                <input type="file">
+            </div>
+            <br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </body>
+</html>
