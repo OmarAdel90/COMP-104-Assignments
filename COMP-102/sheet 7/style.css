@@ -1,0 +1,40 @@
+body {
+    background-color: #C7D3D4EF;
+    border-left: 2px #9969C7 solid;
+    border-right: 2px #9969C7 solid;
+    border-top: 1px #9969C7 solid;
+    border-bottom: 1px #9969C7 solid;
+
+}
+
+table {
+    width: 80%;
+    padding-left: 30px;
+    border-spacing: 10px;
+}
+
+#head {
+    background-image: url(resources/bg.jpg);
+}
+
+.subjects {
+    width: 200px;
+}
+
+.button {
+    color: white;
+    background-color: #9969C7;
+    padding: 5px 30px 5px 30px;
+    border: 2px #552586 solid;
+    margin-right: 60px;
+}
+
+.button:hover {
+    background-color: #897098;
+    cursor: pointer;
+}
+
+.full-width {
+    width: 99%;
+    height: 100%;
+}
