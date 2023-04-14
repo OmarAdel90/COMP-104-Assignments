@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input {
+            height: 20px;
+        }
+        .container {
+            margin-left: 15px;
+        }
+        .bttns {
+            height: 50px;
+            display: inline-block;
+        }
+        .bttns input {
+            
+            margin-left: 355px;
+            margin: 5px;
+            background-color: blueviolet;
+            color: white;
+            padding: 5px 10px 5px 10px;
+            height: auto;
+            border: 1px lightcoral solid;
+        }
+    </style>
+</head>
+<body style="background-color: #D8BFD8;">
+    <div class="container">
+    <h1 style="font-style: italic;">Shipping details</h1>
+    <form>
+        <label for="first_name" style="margin-right: 12px;">First</label>
+        <input type="text" name="first" id="first_name">
+        <label for="last_name">Last</label>
+        <input type="text" name="last" id="last_name" style="width: 422px;">
+        <br>
+        <label for="street">Street</label>
+        <input type="text" name="street" id="street" style="width: 639px;">
+        <br>
+        <label for="city" style="margin-right: 18px;">City</label>
+        <input type="text" name="city" id="city">
+        <label for="govern">Governate</label>
+        <input type="text" name="govrn" id="govern">
+        <label for="zip">Zip</label>
+        <input type="number" name="zip" id="zip">
+        <br>
+        <h1 style="font-style: italic;">Payment Info.</h1>
+        <label for="acc.no">Account Number</label>
+        <input type="number" name="nom" id="acc.no">
+        <br>
+        <label for="exp">EXP</label>
+        <br>
+        <input type="number" name="exp" id="exp" style="margin-right: 150px;">
+        <label for="ccv">CCV</label>
+        <br>
+        <input type="number" name="ccv" id="ccv" style="margin-left: 330px;">
+        <br>
+        <div class="bttns">
+            <input type="submit" value="Proceed">
+            <br>
+            <input type="button" value="Back" style="width: 73px;">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
